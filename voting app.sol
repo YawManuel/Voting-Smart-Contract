@@ -5,7 +5,7 @@ contract Voting {
     mapping(uint => Candidate) public candidates; // The list of candidates.
     uint public candidateCount; // Keep track of the number of candidates
 
-    address public votingperson; // The votingperson of the voting.
+    address public votingperson; // The votingperson person permitted to vote.
 
     uint public startTime; // The start time of the voting.
 
