@@ -11,7 +11,7 @@ contract Voting {
 
     uint public endTime; // The end time of the voting.
 
-    // The winning proposal.
+    // The winning candidate.
     uint public winningCandidate;
     uint public winningVoteCount;
 
